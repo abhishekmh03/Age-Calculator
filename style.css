@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/img/Designer\ 23.png);
+    background-size: cover;
+    height: 100vh;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+}
+h2{
+    padding:1rem;
+}
+.input-data{
+    padding: 1rem;
+    display: flex;
+   justify-content: space-between;
+}
+.br img{
+    width: 100%;
+    height: 5rem;
+    background-size: contain;
+}
+.line-container {
+    position: relative; 
+    text-align: center; 
+    margin: 20px 0; 
+}
+.decorative-line {
+    height: 4px;
+    background: linear-gradient(to right, rgb(59, 11, 30), transparent, rgb(73, 13, 37));
+    border: none;
+    margin: 0;
+}
+.line-img {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 55px; 
+    height: auto; 
+    cursor: pointer;
+}
+
+.ans{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}

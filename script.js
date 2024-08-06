@@ -80,8 +80,8 @@ function age(){
     }
     console.log(output_date,output_month,output_year);
     
-    outputY.innerText = `${output_year} Years`;
-    outputM.innerText = `${output_month} Months`;
-    outputD.innerText = `${output_date} Days`;
+    outputY.innerHTML = `<span class="highlight">${output_year}</span> <span class="highlight_t">Years</span>`;
+    outputM.innerHTML = `<span class ="highlight">${output_month}</span> <span class="highlight_t">Months</span>`;
+    outputD.innerHTML = `<span class="highlight">${output_date}</span> <span class="highlight_t">Days</span>`;
 
-}
+};

@@ -11,7 +11,7 @@ body{
     background-color: rgba(255, 255, 255, 0.6) !important;
 }
 h2{
-    padding:1rem;
+    padding:1rem; 
 }
 .input-data{
     padding: 1rem;
@@ -62,4 +62,18 @@ h2{
 }
 .valid_date{
     color: red;
+}
+
+
+.highlight{
+    color: red;
+    font-weight: bold;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px #000;
+}
+.highlight_t{
+        color: #370617;
+        font-weight: 600;
+        font-size: 45px;
+        text-shadow: 1px 1px 2px #000;
 }

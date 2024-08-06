@@ -49,3 +49,17 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+.valid_month{
+    color: red;
+
+}
+.hidden{
+    display: none;
+}
+.valid_year{
+    color: red;
+}
+.valid_date{
+    color: red;
+}

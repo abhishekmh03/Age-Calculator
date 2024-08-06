@@ -11,19 +11,27 @@
     <h2 class="text-center">Age Calculator</h2>
     <div class="card container ">
         <div class="input-data row ">
-            <div class=" col-lg-3 col-sm-5 col-12 mb-3 btn btn-outline-dark">
+
+            <div class=" i_date col-lg-3 col-sm-5 col-12 mb-3 btn btn-outline-dark">
                 <label>Date :-</label>
-                <input class="input-date" placeholder="DD" type="number">
+                <input class="input-date" placeholder="DD" type="text" maxlength="2">
+                <p class="valid_date hidden">Please enter valid date.</p>
             </div>
-            <div class="col-lg-3 col-sm-5 col-12 mb-3 btn btn-outline-dark">
+
+            <div class=" i_month col-lg-3 col-sm-5 col-12 mb-3 btn btn-outline-dark ">
                 <label>Month :-</label>
-                <input class="input-month " placeholder="MM" type="number">
+                <input class="input-month " placeholder="MM" type="text" maxlength="2">
+                <p class="valid_month hidden">Please enter valid month.</p>
             </div>
-            <div class="col-lg-3 col col-sm-5 col-12 mb-3 btn btn-outline-dark">
+
+            <div class=" i_year col-lg-3 col col-sm-5 col-12 mb-3 btn btn-outline-dark">
                 <label>Year :-</label>
             <input class="input-year " placeholder="YYYY" type="text" maxlength="4">
+            <p class="valid_year hidden">Please enter valid year.</p>
             </div>
+
         </div>
+
         <div class="line-container">
         <div class="decorative-line"></div>
          <img src="./img/Design.png" alt="decorative-img" class="line-img">
